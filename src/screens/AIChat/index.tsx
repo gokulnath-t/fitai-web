@@ -74,7 +74,7 @@ export default function Component() {
     history,
   } = useSelector((state: RootState) => state.app);
 
-  const baseUrl = "http://14.97.127.234:8000";
+  const baseUrl = "https://e860-14-97-127-234.ngrok-free.app";
 
   useEffect(() => {
     getSelectedFacts();
